@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'zeitwerk'
+# Set up code loader
 loader = Zeitwerk::Loader.new
-loader.push_dir('src')
+loader.push_dir('src/aggregates')
 loader.setup

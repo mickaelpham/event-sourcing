@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+Bundler.require(:default)
+
+require_relative "../config/boot"
+IRB.start(__FILE__)

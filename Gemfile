@@ -2,5 +2,7 @@
 
 source 'https://rubygems.org'
 
+gem 'rake'
 gem 'reek'
 gem 'rubocop'
+gem 'zeitwerk'
